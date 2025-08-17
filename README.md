@@ -1,15 +1,14 @@
-# 📌 Nome do Projeto
+# 📌 App de serviço para hotel
 
-Breve descrição do problema identificado e da solução proposta.  
-Pode incluir imagens, diagramas ou links para protótipos, vídeos, wireframes etc.
+Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar para a recepção, você pode solicitar serviços, fazer pedidos e agendamentos diretamente pelo aplicativo, de forma simples, rápida e prática.
 
 ---
 
 ## 👥 Integrantes
 
-- Nome 1 – RA: XXXXXXXX  
-- Nome 2 – RA: XXXXXXXX  
-- Nome 3 – RA: XXXXXXXX  
+- Matheus Eduardo  – RA: XXXXXXXX  
+- Vinícius Dias  – RA: XXXXXXXX  
+- Luis Ricardo  – RA: XXXXXXXX  
 
 ---
 
