@@ -7,7 +7,7 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 ## 👥 Integrantes
 
 - Matheus Eduardo Silva – RA:1460282  
-- Vinícius Dias – RA: XXXXXXXX  
+- Vinícius Dias Oliveira – RA: 1455187
 - Luis Ricardo Cardoso – RA: 1464043  
 
 ---
