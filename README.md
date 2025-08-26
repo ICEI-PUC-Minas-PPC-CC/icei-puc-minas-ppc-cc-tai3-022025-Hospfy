@@ -17,9 +17,7 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 ### 1️⃣ Definição do Problema e da Solução
 - **Problema identificado:**  Hóspedes de hotéis enfrentam dificuldades em solicitar serviços, obter informações rápidas e manter uma comunicação eficiente com a recepção e funcionários. Além disso, os funcionários encontram desafios em gerenciar múltiplas solicitações ao mesmo tempo, acompanhar o andamento de cada pedido e responder de forma organizada.
  
-- **Público-alvo:**  - Hóspedes de hotéis que desejam praticidade para solicitar serviços, obter informações e se comunicar de forma rápida com a recepção.
-- Funcionários e equipe do hotel que precisam de uma ferramenta eficiente para gerenciar solicitações, organizar tarefas e manter a comunicação com os hóspedes.
-- Gestores de hotéis interessados em otimizar a experiência do cliente e melhorar a eficiência operacional.
+- **Público-alvo:**  - Hóspedes de hotéis que desejam praticidade para solicitar serviços, obter informações e se comunicar de forma rápida com a recepção. Funcionários e equipe do hotel que precisam de uma ferramenta eficiente para gerenciar solicitações, organizar tarefas e manter a comunicação com os hóspedes. Gestores de hotéis interessados em otimizar a experiência do cliente e melhorar a eficiência operacional.
  
 - **Impacto esperado:**  
 - **Solução proposta:**  Criar um aplicativo móvel que conecte hóspedes e funcionários em um único ambiente digital. O app permitirá aos hóspedes realizar solicitações de serviços, acessar um guia digital do hotel, enviar feedbacks e conversar com a recepção em tempo real. Para os funcionários, o sistema oferecerá um painel de controle para gerenciar solicitações, atualizar status e responder diretamente aos hóspedes.
