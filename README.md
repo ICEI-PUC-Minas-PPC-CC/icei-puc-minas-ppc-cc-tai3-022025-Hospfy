@@ -19,7 +19,8 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
  
 - **Público-alvo:**  - Hóspedes de hotéis que desejam praticidade para solicitar serviços, obter informações e se comunicar de forma rápida com a recepção. Funcionários e equipe do hotel que precisam de uma ferramenta eficiente para gerenciar solicitações, organizar tarefas e manter a comunicação com os hóspedes. Gestores de hotéis interessados em otimizar a experiência do cliente e melhorar a eficiência operacional.
  
-- **Impacto esperado:**  
+- **Impacto esperado:**  O projeto tem como impacto esperado a melhoria significativa na experiência do hóspede, oferecendo praticidade e rapidez no atendimento às suas necessidades. Além disso, busca otimizar a comunicação entre hóspedes e funcionários, reduzindo falhas e atrasos nos processos de solicitação. Para a equipe do hotel, espera-se um aumento da eficiência operacional por meio de um sistema que organiza e centraliza as demandas. De forma geral, o aplicativo também contribui para o fortalecimento da imagem do hotel, transmitindo modernidade, organização e inovação.
+ 
 - **Solução proposta:**  Criar um aplicativo móvel que conecte hóspedes e funcionários em um único ambiente digital. O app permitirá aos hóspedes realizar solicitações de serviços, acessar um guia digital do hotel, enviar feedbacks e conversar com a recepção em tempo real. Para os funcionários, o sistema oferecerá um painel de controle para gerenciar solicitações, atualizar status e responder diretamente aos hóspedes.
 
 ### 2️⃣ Lean Canvas / Missão, Visão e Valores
