@@ -25,10 +25,18 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 - **Solução proposta:**  Criar um aplicativo móvel que conecte hóspedes e funcionários em um único ambiente digital. O app permitirá aos hóspedes realizar solicitações de serviços, acessar um guia digital do hotel, enviar feedbacks e conversar com a recepção em tempo real. Para os funcionários, o sistema oferecerá um painel de controle para gerenciar solicitações, atualizar status e responder diretamente aos hóspedes.
 
 ### 2️⃣ Lean Canvas / Missão, Visão e Valores
+
 - Lean Canvas (imagem ou link)  
 - Missão: Facilitar a comunicação e a gestão de solicitações em hotéis, oferecendo agilidade, conforto e eficiência para hóspedes e funcionários.
+
 - Visão: Ser a solução digital líder para comunicação e serviços em hotéis, reconhecida pela inovação e excelência na experiência do usuário.
-- Valores:  
+
+- Valores:Agilidade no atendimento
+Transparência na comunicação
+Foco no cliente
+Inovação constante
+Qualidade e confiabilidade
+
 
 ### 3️⃣ Custos e Tributos (Plano de Negócios - PNBOX)
 - Custos fixos:  
