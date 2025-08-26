@@ -27,7 +27,7 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 ### 2️⃣ Lean Canvas / Missão, Visão e Valores
 - Lean Canvas (imagem ou link)  
 - Missão: Facilitar a comunicação e a gestão de solicitações em hotéis, oferecendo agilidade, conforto e eficiência para hóspedes e funcionários.
-- Visão:  
+- Visão: Ser a solução digital líder para comunicação e serviços em hotéis, reconhecida pela inovação e excelência na experiência do usuário.
 - Valores:  
 
 ### 3️⃣ Custos e Tributos (Plano de Negócios - PNBOX)
