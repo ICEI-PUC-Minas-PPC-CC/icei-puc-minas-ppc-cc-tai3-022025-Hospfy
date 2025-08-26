@@ -31,8 +31,8 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 
 - Visão: Ser a solução digital líder para comunicação e serviços em hotéis, reconhecida pela inovação e excelência na experiência do usuário.
 
-- Valores:- Agilidade no atendimento
-Transparência na comunicação
+- Valores: - Agilidade no atendimento
+- Transparência na comunicação
 Foco no cliente
 Inovação constante
 Qualidade e confiabilidade
