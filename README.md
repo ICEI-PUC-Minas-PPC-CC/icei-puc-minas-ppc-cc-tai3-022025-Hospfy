@@ -40,9 +40,22 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 
 
 ### 3️⃣ Custos e Tributos (Plano de Negócios - PNBOX)
-- Custos fixos:  
-- Custos variáveis:  
-- Tributos aplicáveis:  
+
+### Custos Fixos
+- **Hospedagem/servidor em nuvem:** R$ 300/mês  
+- **Licenças e APIs do sistema:** R$ 200/mês  
+- **Internet e energia (home office):** R$ 200/mês  
+- **Contabilidade e tributos:** R$ 200/mês  
+- **Marketing digital recorrente:** R$ 500/mês  
+- **Equipe mínima (desenvolvedor + suporte):** R$ 4.000/mês  
+
+### Custos Variáveis
+- **Taxas de pagamento online (cartão, Pix):** 2% a 5% sobre receita  
+- **Suporte técnico extra por hotel:** R$ 50/hotel/mês  
+- **Marketing de aquisição por cliente:** média R$ 50/hotel
+
+ ### Tributos aplicáveis
+- **Alíquota média inicial:** ~6% sobre o faturamento 
 
 ### 4️⃣ Investimentos e Precificação
 - Investimento inicial:  
