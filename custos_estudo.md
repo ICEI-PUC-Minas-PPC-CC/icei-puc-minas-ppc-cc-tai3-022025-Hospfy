@@ -1,4 +1,4 @@
-# Custos e Despesas
+# Custos e Despesas -   [PNBOX](https://pnbox.sebrae.com.br/planoNegocio/invite/m3-wy4c6o)
 
 ## Tabela de Custos e Despesas
 
@@ -15,3 +15,4 @@
 | Enargos sociais sobre salários | Despesa | Fixo     | Indireto | 14.14%          | Estimativa sobre as principais contribuições da CLT sobre o salário bruto. |
 | Depreciação de notebooks       | Despesa | Fixo     | Indireto | 200/mês         | 3 notebooks de R$ 4.000,00 com vida útil de 5 anos |
 | Depreciação de smartphones     | Despesa | Fixo     | Indireto | 50/mês          | 2 smartphones de R$ 1.500,00 com vida útil de 5 anos |
+
