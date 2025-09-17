@@ -2,25 +2,16 @@
 
 ## Tabela de Custos e Despesas
 
-| Item                           | Tipo        | Fixo/Variável | Direto/Indireto | Valor Estimado (R$) | Premissas utilizadas |
-|--------------------------------|-------------|---------------|-----------------|--------------------|--------------------|
-| Hospedagem/Servidor em nuvem   | Custo       | Fixo          | Direto          | 300/mês            | Plano básico AWS/Digital Ocean |
-| Licenças e APIs (chat, push)   | Custo       | Fixo          | Direto          | 200/mês            | Serviços externos para funcionalidades do app |
-| Taxas de pagamento online      | Custo       | Variável      | Direto          | 2% a 5% das vendas | Cobrança por intermediadores (cartão/Pix) |
-| Marketing digital (anúncios)   | Despesa     | Variável      | Indireto        | 500/mês (médio)    | Google Ads e redes sociais para atração de hotéis |
-| Internet + energia escritório  | Despesa     | Fixo          | Indireto        | 200/mês            | Custos de home office |
-| Contabilidade e tributos       | Despesa     | Fixo          | Indireto        | 200/mês            | Simples Nacional/contador terceirizado |
-| Equipe técnica (dev/manutenção)| Despesa     | Fixo          | Direto          | 2.500–4.000/mês    | Salário de desenvolvedor (PJ ou CLT) |
-| Suporte ao cliente             | Despesa     | Fixo          | Direto          | 1.500/mês          | Suporte remoto/telefone |
-| Depreciação de notebook        | Despesa     | Fixo          | Indireto        | 67/mês             | Notebook de R$ 4.000 / 5 anos |
-| Depreciação de smartphones     | Despesa     | Fixo          | Indireto        | 55/mês             | 2 aparelhos de R$ 2.000 / 3 anos |
-| Suporte técnico extra por hotel| Custo       | Variável      | Direto          | 50/hotel/mês 
-
-## Premissas Resumidas
-- **Servidor + APIs**: valores base de mercado (AWS, Firebase, Digital Ocean).  
-- **Taxas de pagamento**: média cobrada por intermediadores financeiros (PagSeguro, Stripe, Mercado Pago).  
-- **Marketing digital**: gasto médio mensal em anúncios (Google Ads + Meta Ads).  
-- **Contabilidade e tributos**: regime Simples Nacional + contador terceirizado.  
-- **Equipe técnica**: mínimo 1 desenvolvedor responsável pela manutenção + 1 suporte.  
-- **Depreciação**: equipamentos rateados pelo tempo de uso útil.  
-- **Suporte por hotel**: custo proporcional por cliente contratado.
+| Item | Tipo | Fixo/Variável | Direto/Indireto | Valor Estimado (R$) | Premissas utilizadas |
+|---|---|---|---|---|---|
+| Hospedagem/Servidor em nuvem | Custo   | Fixo     | Indireto | 500/mês         | Custo base para manter o serviço no ar |
+| Hospedagem/Servidor (escala) | Custo   | Variável | Indireto | 7% da receita   | Varia com o tráfego e o uso do banco de dados |
+| Licenças e APIs              | Custo   | Fixo     | Indireto | 800/mês         | Serviços para funcionalidades gerais do app |
+| Taxas de pagamento online    | Custo   | Variável | Direto   | 3.5% das vendas | Cobrança de intermediadores financeiros por transação |
+| Marketing digital            | Despesa | Variável | Indireto | 15% da receita  | Gasto em anúncios para atração de hotéis |
+| Contabilidade                | Despesa | Fixo     | Indireto | 500/mês         | Honorários mensais de serviço contábil |
+| Impostos sobre a Receita       | Despesa | Variável | Indireto | ~10% da receita | Variação com base no faturamento do Simples Nacional |
+| Equipe técnica e de gestão     | Despesa | Fixo     | Indireto | 24.840/mês      | Salários e encargos de 3 pessoas (dev, PM, marketing) |
+| Enargos sociais sobre salários | Despesa | Fixo     | Indireto | 14.14%          | Estimativa sobre as principais contribuições da CLT sobre o salário bruto. |
+| Depreciação de notebooks       | Despesa | Fixo     | Indireto | 200/mês         | 3 notebooks de R$ 4.000,00 com vida útil de 5 anos |
+| Depreciação de smartphones     | Despesa | Fixo     | Indireto | 50/mês          | 2 smartphones de R$ 1.500,00 com vida útil de 5 anos |
