@@ -1,37 +1,57 @@
 # Plano de Negócios -   [PNBOX](https://pnbox.sebrae.com.br/planoNegocio/invite/m3-wy4c6o)
 
-| Item | Tipo | Valor Estimado (R$) | Detalhes e Premissas |
+---
+
+## 1. Estrutura de Investimentos e Capital
+
+A sustentabilidade do Hospfy é garantida por uma estrutura de capital que cobre os custos iniciais e a operação mensal mínima.
+
+### Investimento Inicial (Total)
+O capital necessário para a fase de lançamento e aquisição dos bens essenciais.
+
+* *Total:* *R$ 22.100,00*
+* *Composição:*
+    * *Investimento Fixo (Equipamentos):* R$ 18.000,00 (Compra de notebooks, smartphones, etc.)
+    * *Investimento Pré-operacional:* R$ 4.100,00 (Custos de legalização e marketing de inauguração)
+
+### Capital de Giro e Reserva
+O capital de giro é o valor necessário para manter a empresa operando mensalmente, sem depender integralmente da receita imediata.
+
+* *Custo Fixo Mensal (Capital de Giro):* *R$ 5.400,00*
+    * Finalidade: Valor mínimo para cobrir salários da equipe mínima, hospedagem de servidores (base) e despesas administrativas.
+* *Reserva Financeira:* *R$ 10.000,00*
+    * Objetivo: Colchão de segurança para imprevistos e garantia de estabilidade do fluxo de caixa.
+
+---
+
+## 2. Estratégia de Precificação
+
+A precificação do Hospfy adota um *Modelo Misto* baseado no valor percebido pelo cliente (eficiência e experiência) e na capacidade de pagamento.
+
+| Plano | Público-alvo | Periodicidade | Preço (R$) |
 | :--- | :--- | :--- | :--- |
-| **Investimento Fixo** | Fixo / Material | **R$ 18.000,00** | Custo inicial para adquirir bens duráveis, como notebooks para desenvolvimento (3x R$ 4.000) e smartphones de teste (2x R$ 3.000). |
-| **Investimento Pré-operacional** | Fixo / Administrativo | **R$ 4.100,00** | Custos para tirar o negócio do papel: despesas com legalização (R$ 1.800), taxas (R$ 500) e marketing inicial de lançamento (R$ 800) e registro de marca (R$ 1.000). |
-| **Custo Fixo Mensal** | Fixo / Operacional | **R$ 5.400,00 /mês** | Custo mínimo para manter a operação mensal, incluindo salários, hospedagem básica, licenças e contabilidade. Baseado na premissa de uma equipe mínima (R$ 4.000) mais custos de home office e infraestrutura. |
-| **Capital de Giro** | Variável / Financeiro | **-** | O valor necessário para o funcionamento mensal, calculado pela diferença entre o prazo de recebimento (39 dias) e o prazo de pagamento (30 dias). |
-| **Estratégia de Precificação** | Misto / Assinatura | **R$ 400 - R$ 1.200** | **Modelo Misto:** Planos por perfil de cliente (Pequeno, Médio, Grande) para acomodar a capacidade de pagamento. A periodicidade de cobrança pode ser mensal (flexibilidade) ou anual (fidelização). |
-| **Reserva Financeira** | Fixo / Financeiro | **R$ 10.000,00** | Colchão de segurança para cobrir imprevistos, como a perda de um cliente grande ou custos inesperados, garantindo a estabilidade financeira do negócio. |
+| *Plano Básico* | Hotéis de Pequeno Porte (até 30 quartos) | Mensal | *R$ 400,00/mês* |
+| *Plano Profissional* | Hotéis de Médio Porte (até 100 quartos) | Mensal | *R$ 700,00/mês* |
+| *Plano Enterprise* | Hotéis de Grande Porte/Redes | Anual | *R$ 1.200,00/ano* |
+
+### *Métricas de Sucesso*
+
+* *CAC (Custo de Aquisição de Cliente):* Medirá o gasto necessário para converter um novo hotel.
+* *ARPU (Receita Média por Usuário):* Média da receita gerada por hotel.
+* *LTV (Lifetime Value):* Receita total gerada por um hotel durante todo o seu ciclo de vida como cliente do Hospfy.
 
 ---
 
-### **Métricas de Crescimento**
+## 3. Estrutura Legal e Tributação
 
-* **CAC (Custo de Aquisição de Cliente):** Mede o gasto para conquistar um novo hotel.
-* **ARPU (Receita Média por Usuário):** A receita média por cliente.
-* **LTV (Lifetime Value):** A receita total que um hotel gera durante todo o seu ciclo de vida como cliente.
+A escolha da estrutura garante a simplificação fiscal e a segurança jurídica na fase inicial do Hospfy.
+
+* *Natureza Jurídica:* *Sociedade Limitada (LTDA)*
+    * Vantagem: Separação do patrimônio pessoal dos sócios.
+* *Regime Tributário:* *Simples Nacional*
+    * Justificativa: Regime unificado (guia única - DAS) com alíquotas reduzidas, ideal para empresas de serviço com faturamento inicial.
+* *Tributação Incidente (Custo Variável):*
+    * *Alíquota Estimada:* *~10% sobre o faturamento*
+    * Impacto: Esse percentual cobre todos os impostos (IRPJ, CSLL, PIS, COFINS, ISS, INSS Patronal) e é incorporado ao custo variável, crescendo junto com a receita.
 
 ---
-
-## **Enquadramento Empresarial**
-
-**Natureza Jurídica:** LTDA  
-- Justificativa: Dois ou mais sócios, responsabilidade limitada, crescimento estruturado.
-
-**Regime Tributário:** Simples Nacional  
-- Justificativa: Pequeno porte, faturamento abaixo do limite legal, simplificação tributária.
-
-**Tributação Incidente:**  
-- IRPJ, CSLL, PIS, COFINS, ISS, ICMS, INSS patronal (~6–10% sobre receita total).
-
-**Obrigações Acessórias:**  
-- Emissão de notas fiscais eletrônicas (NF-e).  
-- Declaração do Simples Nacional (DASN-SIMEI / PGDAS-D).  
-- Registro contábil de receitas, despesas e folha de pagamento.  
-- Arquivamento de livros fiscais e contábeis conforme legislação.
