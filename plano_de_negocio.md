@@ -16,3 +16,22 @@
 * **CAC (Custo de Aquisição de Cliente):** Mede o gasto para conquistar um novo hotel.
 * **ARPU (Receita Média por Usuário):** A receita média por cliente.
 * **LTV (Lifetime Value):** A receita total que um hotel gera durante todo o seu ciclo de vida como cliente.
+
+---
+
+## **Enquadramento Empresarial**
+
+**Natureza Jurídica:** LTDA  
+- Justificativa: Dois ou mais sócios, responsabilidade limitada, crescimento estruturado.
+
+**Regime Tributário:** Simples Nacional  
+- Justificativa: Pequeno porte, faturamento abaixo do limite legal, simplificação tributária.
+
+**Tributação Incidente:**  
+- IRPJ, CSLL, PIS, COFINS, ISS, ICMS, INSS patronal (~6–10% sobre receita total).
+
+**Obrigações Acessórias:**  
+- Emissão de notas fiscais eletrônicas (NF-e).  
+- Declaração do Simples Nacional (DASN-SIMEI / PGDAS-D).  
+- Registro contábil de receitas, despesas e folha de pagamento.  
+- Arquivamento de livros fiscais e contábeis conforme legislação.
