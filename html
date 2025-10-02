@@ -1,102 +1,106 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Hotel App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospfy</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- BOTÃO FLUTUANTE SEM DEPENDER DO LOGIN -->
-  <button id="botao-preto" class="botao-flutuante">Tela Preta</button>
-
-  <!-- LOGIN E CADASTRO CENTRALIZADOS -->
-  <div class="centralizado-container">
-    <!-- LOGIN -->
-    <section id="login-section" class="centralizado">
+  <!-- LOGIN -->
+  <div id="login-container" class="centralizado-container">
+    <div class="centralizado">
       <h2>Login</h2>
       <form id="login-form">
-        <input type="text" id="login-user" placeholder="Usuário" required>
-        <input type="password" id="login-pass" placeholder="Senha" required>
+        <input type="text" id="login-usuario" placeholder="Usuário" required>
+        <input type="password" id="login-senha" placeholder="Senha" required>
         <button type="submit">Entrar</button>
       </form>
-      <p>Não tem conta? <a href="#" id="show-cadastro">Cadastre-se</a></p>
-    </section>
-
-    <!-- CADASTRO -->
-    <section id="cadastro-section" class="hidden centralizado">
-      <h2>Cadastro de Hóspede</h2>
-      <form id="cadastro-form">
-        <input type="text" id="nome" placeholder="Nome" required>
-        <input type="text" id="quarto" placeholder="Quarto" required>
-        <input type="tel" id="telefone" placeholder="Telefone" required>
-        <input type="email" id="email" placeholder="Email" required>
-        <button type="submit">Cadastrar</button>
-      </form>
-      <p>Já tem conta? <a href="#" id="show-login">Voltar ao Login</a></p>
-    </section>
+      <p>Não tem conta? <a href="#" id="mostrar-cadastro">Cadastre-se</a></p>
+    </div>
   </div>
 
-  <!-- MENU LATERAL (invisível até login) -->
-  <nav id="menu" class="hidden">
-    <h3>Menu</h3>
-    <div class="menu-top">
-      <button data-section="painel-section">Painel</button>
-      <button data-section="chat-section">Chat</button>
-      <button data-section="servicos-section">Serviços</button>
-      <button data-section="feedback-section">Feedback</button>
+  <!-- CADASTRO -->
+  <div id="cadastro-container" class="centralizado-container hidden">
+    <div class="centralizado">
+      <h2>Cadastro</h2>
+      <form id="cadastro-form">
+        <input type="text" id="cadastro-usuario" placeholder="Usuário" required>
+        <input type="password" id="cadastro-senha" placeholder="Senha" required>
+        <button type="submit">Cadastrar</button>
+      </form>
+      <p>Já tem conta? <a href="#" id="mostrar-login">Entrar</a></p>
     </div>
-    <button id="logout-btn" class="logout-btn">Sair</button>
+  </div>
+
+  <!-- MENU LATERAL -->
+  <nav id="menu" class="hidden">
+    <h3>
+      Menu <button id="toggle-dark" class="dark-btn">🌙</button>
+    </h3>
+    <div class="menu-top">
+      <button data-aba="painel">Painel de Controle</button>
+      <button data-aba="chat">Chat</button>
+      <button data-aba="servicos">Serviços</button>
+      <button data-aba="feedback">Feedback</button>
+    </div>
+    <button id="logout" class="logout-btn">Sair</button>
   </nav>
 
+  <!-- CONTEÚDO -->
   <main id="conteudo">
-    <!-- PAINEL -->
-    <section id="painel-section" class="hidden">
-      <h2>Painel de Controle (Funcionários)</h2>
-      <ul id="painel-servicos"></ul>
-      <h3>Gerenciamento de Usuários</h3>
-      <ul id="painel-usuarios"></ul>
+    <section id="painel" class="aba hidden">
+      <h2>Painel de Controle</h2>
+      <div id="func-login">
+        <h3>Login Funcionários</h3>
+        <form id="func-form">
+          <input type="text" id="func-nome" placeholder="Nome do funcionário" required>
+          <input type="password" id="func-senha" placeholder="Senha" required>
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+      <div id="func-bemvindo" class="hidden"></div>
     </section>
 
-    <!-- CHAT -->
-    <section id="chat-section" class="hidden">
-      <h2>Chat com Recepção</h2>
+    <section id="chat" class="aba hidden">
+      <h2>Chat</h2>
       <div id="chat-box"></div>
-      <form id="chat-form">
-        <input type="text" id="chat-input" placeholder="Digite sua mensagem">
-        <button type="submit">Enviar</button>
-      </form>
+      <input type="text" id="chat-input" placeholder="Digite sua mensagem">
+      <button id="chat-enviar">Enviar</button>
     </section>
 
-    <!-- SERVIÇOS -->
-    <section id="servicos-section" class="hidden">
+    <section id="servicos" class="aba hidden">
       <h2>Serviços</h2>
-      <form id="servico-form">
-        <input type="text" id="servico-nome" placeholder="Ex: Toalhas, Limpeza" required>
-        <button type="submit">Solicitar</button>
+      <form id="servicos-form">
+        <label>Selecione o serviço:</label>
+        <select id="servico-select" required>
+          <option value="">-- Escolha um serviço --</option>
+          <option value="refeicao">Pedido de refeição</option>
+          <option value="limpeza">Agendamento de limpeza</option>
+          <option value="toalhas">Solicitar toalhas</option>
+        </select>
+
+        <label>Selecione dia e hora:</label>
+        <input type="date" id="servico-dia" required>
+        <input type="time" id="servico-hora" required>
+
+        <button type="submit">Agendar Serviço</button>
       </form>
-      <ul id="servico-list"></ul>
     </section>
 
-    <!-- FEEDBACK -->
-    <section id="feedback-section" class="hidden">
+    <section id="feedback" class="aba hidden">
       <h2>Feedback</h2>
       <form id="feedback-form">
-        <textarea id="feedback-text" placeholder="Escreva sua opinião..." required></textarea>
-        <label>
-          Nota:
-          <select id="feedback-nota">
-            <option value="5">5 - Excelente</option>
-            <option value="4">4 - Bom</option>
-            <option value="3">3 - Regular</option>
-            <option value="2">2 - Ruim</option>
-            <option value="1">1 - Péssimo</option>
-          </select>
-        </label>
-        <button type="submit">Enviar</button>
+        <label>Selecione o serviço para avaliar:</label>
+        <select id="feedback-servico" required>
+          <option value="">-- Escolha um serviço --</option>
+          <option value="refeicao">Pedido de refeição</option>
+          <option value="limpeza">Agendamento de limpeza</option>
+          <option value="toalhas">Solicitar toalhas</option>
+        </select>
+        <textarea id="feedback-texto" placeholder="Deixe seu feedback"></textarea>
+        <button type="submit" class="btn-pequeno">Enviar</button>
       </form>
-      <ul id="feedback-list"></ul>
     </section>
   </main>
 
