@@ -1,151 +1,121 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-  const loginSection = document.getElementById("login-section");
-  const cadastroSection = document.getElementById("cadastro-section");
+  const loginContainer = document.getElementById("login-container");
+  const cadastroContainer = document.getElementById("cadastro-container");
   const menu = document.getElementById("menu");
-  const chatSection = document.getElementById("chat-section");
-  const servicosSection = document.getElementById("servicos-section");
-  const painelSection = document.getElementById("painel-section");
-  const feedbackSection = document.getElementById("feedback-section");
+  const abas = document.querySelectorAll(".aba");
+  const toggleDark = document.getElementById("toggle-dark");
 
-  const showCadastroLink = document.getElementById("show-cadastro");
-  const showLoginLink = document.getElementById("show-login");
-
-  const loginForm = document.getElementById("login-form");
-  const cadastroForm = document.getElementById("cadastro-form");
-
-  const chatForm = document.getElementById("chat-form");
-  const chatBox = document.getElementById("chat-box");
-
-  const servicoForm = document.getElementById("servico-form");
-  const servicoList = document.getElementById("servico-list");
-
-  const feedbackForm = document.getElementById("feedback-form");
-  const feedbackList = document.getElementById("feedback-list");
-
-  const logoutBtn = document.getElementById("logout-btn");
-  const botaoPreto = document.getElementById("botao-preto");
-
-  function showSection(section) {
-    [painelSection, chatSection, servicosSection, feedbackSection].forEach(s => s.classList.add("hidden"));
-    section.classList.remove("hidden");
-  }
-
-  // Alternar login/cadastro
-  showCadastroLink.addEventListener("click", e => {
+  // TROCAR TELA LOGIN/CADASTRO
+  document.getElementById("mostrar-cadastro").addEventListener("click", e => {
     e.preventDefault();
-    loginSection.classList.add("hidden");
-    cadastroSection.classList.remove("hidden");
+    loginContainer.classList.add("hidden");
+    cadastroContainer.classList.remove("hidden");
   });
 
-  showLoginLink.addEventListener("click", e => {
+  document.getElementById("mostrar-login").addEventListener("click", e => {
     e.preventDefault();
-    cadastroSection.classList.add("hidden");
-    loginSection.classList.remove("hidden");
+    cadastroContainer.classList.add("hidden");
+    loginContainer.classList.remove("hidden");
   });
 
-  // LOGIN
-  loginForm.addEventListener("submit", e => {
+  // LOGIN FIXO (Luis)
+  document.getElementById("login-form").addEventListener("submit", e => {
     e.preventDefault();
-    const user = document.getElementById("login-user").value.trim();
-    const pass = document.getElementById("login-pass").value.trim();
-    if (user === "luis" && pass === "luisxl") {
-      document.querySelector(".centralizado-container").classList.add("hidden");
+    const usuario = document.getElementById("login-usuario").value;
+    const senha = document.getElementById("login-senha").value;
+    if (usuario === "luis" && senha === "luisxl") {
+      loginContainer.classList.add("hidden");
       menu.classList.remove("hidden");
-      showSection(painelSection);
+      document.getElementById("painel").classList.remove("hidden");
     } else {
-      alert("Usuário ou senha incorretos!");
+      alert("Usuário ou senha inválidos!");
     }
   });
 
-  // CADASTRO
-  cadastroForm.addEventListener("submit", e => {
+  // CADASTRO SIMPLES
+  document.getElementById("cadastro-form").addEventListener("submit", e => {
     e.preventDefault();
-    const nome = document.getElementById("nome").value.trim();
-    const quarto = document.getElementById("quarto").value.trim();
-    const telefone = document.getElementById("telefone").value.trim();
-    const email = document.getElementById("email").value.trim();
-    if (nome && quarto && telefone && email) {
-      document.querySelector(".centralizado-container").classList.add("hidden");
-      menu.classList.remove("hidden");
-      showSection(painelSection);
-      alert(`Hóspede ${nome} cadastrado com sucesso!`);
-    } else {
-      alert("Preencha todos os campos!");
-    }
+    alert("Cadastro realizado com sucesso!");
+    cadastroContainer.classList.add("hidden");
+    loginContainer.classList.remove("hidden");
   });
 
-  // Logout
-  logoutBtn.addEventListener("click", () => {
-    menu.classList.add("hidden");
-    [painelSection, chatSection, servicosSection, feedbackSection].forEach(s => s.classList.add("hidden"));
-    document.querySelector(".centralizado-container").classList.remove("hidden");
-  });
-
-  // Menu lateral
-  menu.querySelectorAll("button[data-section]").forEach(btn => {
+  // TROCAR ABAS
+  document.querySelectorAll("nav#menu button[data-aba]").forEach(btn => {
     btn.addEventListener("click", () => {
-      const target = btn.getAttribute("data-section");
-      if (target === "painel-section") showSection(painelSection);
-      if (target === "chat-section") showSection(chatSection);
-      if (target === "servicos-section") showSection(servicosSection);
-      if (target === "feedback-section") showSection(feedbackSection);
+      abas.forEach(aba => aba.classList.add("hidden"));
+      document.getElementById(btn.dataset.aba).classList.remove("hidden");
     });
   });
 
-  // Chat
-  chatForm.addEventListener("submit", e => {
-    e.preventDefault();
-    const msg = document.getElementById("chat-input").value.trim();
-    if (msg) {
-      const p = document.createElement("p");
-      p.classList.add("msg", "user");
-      p.textContent = msg;
-      chatBox.appendChild(p);
-      document.getElementById("chat-input").value = "";
-      chatBox.scrollTop = chatBox.scrollHeight;
+  // LOGOUT
+  document.getElementById("logout").addEventListener("click", () => {
+    menu.classList.add("hidden");
+    abas.forEach(aba => aba.classList.add("hidden"));
+    loginContainer.classList.remove("hidden");
+  });
+
+  // CHAT SIMPLES
+  const chatBox = document.getElementById("chat-box");
+  document.getElementById("chat-enviar").addEventListener("click", () => {
+    const input = document.getElementById("chat-input");
+    if (input.value.trim() !== "") {
+      const userMsg = document.createElement("div");
+      userMsg.classList.add("msg", "user");
+      userMsg.textContent = "Você: " + input.value;
+      chatBox.appendChild(userMsg);
 
       setTimeout(() => {
-        const reply = document.createElement("p");
-        reply.classList.add("msg", "hotel");
-        reply.textContent = "Recepção: Mensagem recebida!";
-        chatBox.appendChild(reply);
-        chatBox.scrollTop = chatBox.scrollHeight;
+        const hotelMsg = document.createElement("div");
+        hotelMsg.classList.add("msg", "hotel");
+        hotelMsg.textContent = "Hotel: Recebido!";
+        chatBox.appendChild(hotelMsg);
       }, 1000);
+
+      input.value = "";
     }
   });
 
-  // Serviços
-  servicoForm.addEventListener("submit", e => {
+  // FEEDBACK
+  document.getElementById("feedback-form").addEventListener("submit", e => {
     e.preventDefault();
-    const servico = document.getElementById("servico-nome").value.trim();
-    if (servico) {
-      const li = document.createElement("li");
-      li.textContent = servico;
-      servicoList.appendChild(li);
-      document.getElementById("servico-nome").value = "";
+    const servico = document.getElementById("feedback-servico").value;
+    const texto = document.getElementById("feedback-texto").value;
+    if (servico && texto.trim() !== "") {
+      alert("Feedback enviado para " + servico + ". Obrigado!");
+      e.target.reset(); // limpa o formulário
     }
   });
 
-  // Feedback
-  feedbackForm.addEventListener("submit", e => {
+  // SERVIÇOS
+  document.getElementById("servicos-form").addEventListener("submit", e => {
     e.preventDefault();
-    const texto = document.getElementById("feedback-text").value.trim();
-    const nota = document.getElementById("feedback-nota").value;
-    if (texto) {
-      const li = document.createElement("li");
-      li.textContent = `Nota ${nota}: ${texto}`;
-      feedbackList.appendChild(li);
-      document.getElementById("feedback-text").value = "";
-      document.getElementById("feedback-nota").value = "5";
+    const servico = document.getElementById("servico-select").value;
+    const dia = document.getElementById("servico-dia").value;
+    const hora = document.getElementById("servico-hora").value;
+    if (servico && dia && hora) {
+      alert(`Serviço "${servico}" agendado para ${dia} às ${hora}`);
+      e.target.reset(); // limpa o formulário
     }
   });
 
-  // BOTÃO TELA PRETA SEM DEPENDER DO LOGIN
-  botaoPreto.addEventListener("click", () => {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
+  // BOTÃO ALTO CONTRASTE
+  toggleDark.addEventListener("click", () => {
+    document.body.classList.toggle("contraste");
   });
 
+  // LOGIN FUNCIONÁRIOS
+  document.getElementById("func-form").addEventListener("submit", e => {
+    e.preventDefault();
+    const nome = document.getElementById("func-nome").value;
+    const senha = document.getElementById("func-senha").value;
+    if (senha === "admin123") {
+      document.getElementById("func-login").classList.add("hidden");
+      const bemvindo = document.getElementById("func-bemvindo");
+      bemvindo.textContent = `Seja bem-vindo funcionário ${nome}`;
+      bemvindo.classList.remove("hidden");
+    } else {
+      alert("Senha inválida para funcionário!");
+    }
+  });
 });
-
