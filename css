@@ -1,13 +1,9 @@
 /* RESET */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   font-family: Arial, sans-serif;
-  background: #f8f9fa;
+  background: #fff;
   color: #333;
   min-height: 100vh;
   transition: background 0.3s, color 0.3s;
@@ -23,7 +19,7 @@ body {
   display: flex;
   justify-content: center; 
   align-items: flex-start;
-  background: rgba(248,249,250,1);
+  background: rgba(255,255,255,1);
   z-index: 100;
   padding-top: 200px;
 }
@@ -38,17 +34,9 @@ body {
   text-align: center;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
+form { display: flex; flex-direction: column; gap: 12px; }
 
-input, textarea, select, button {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
+input, textarea, select, button { padding: 12px; border: 1px solid #ccc; border-radius: 8px; }
 
 button {
   background: #007bff;
@@ -57,20 +45,18 @@ button {
   transition: 0.3s;
 }
 
-button:hover {
-  background: #0056b3;
-}
+button:hover { background: #0056b3; }
 
 .hidden { display: none !important; }
 
-/* MENU LATERAL VERDE DESBOTADO */
+/* MENU LATERAL CINZA DESBOTADO */
 nav#menu {
   position: fixed;
   top: 0;
   left: 0;
   width: 220px;
   height: 100%;
-  background: #a8d5a2;
+  background: #a8d5a2; /* verde desbotado inicial */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -84,7 +70,6 @@ nav#menu h3 {
   margin-bottom: 20px;
   text-align: center;
   font-size: 26px;
-  font-weight: bold;
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -100,7 +85,6 @@ nav#menu .dark-btn {
   cursor: pointer;
 }
 
-/* MENUS */
 nav#menu .menu-top {
   flex: 1;
   display: flex;
@@ -108,6 +92,7 @@ nav#menu .menu-top {
   gap: 10px;
 }
 
+/* BOTÕES QUASE TRANSPARENTES */
 nav#menu button {
   background: rgba(255,255,255,0.2);
   border: none;
@@ -120,21 +105,17 @@ nav#menu button {
   font-weight: bold;
 }
 
-nav#menu button:hover {
-  background: rgba(255,255,255,0.4);
-}
+nav#menu button:hover { background: rgba(255,255,255,0.3); }
 
 /* BOTÃO SAIR FIXO NA BASE */
 .logout-btn {
   margin-top: auto;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.1);
   font-size: 20px;
   font-weight: bold;
 }
 
-.logout-btn:hover {
-  background: rgba(255,255,255,0.5);
-}
+.logout-btn:hover { background: rgba(255,255,255,0.3); }
 
 /* CONTEÚDO PRINCIPAL */
 main#conteudo {
@@ -144,9 +125,7 @@ main#conteudo {
   transition: margin-left 0.3s;
 }
 
-nav#menu:not(.hidden) ~ main#conteudo {
-  margin-left: 240px;
-}
+nav#menu:not(.hidden) ~ main#conteudo { margin-left: 240px; }
 
 /* CHAT */
 #chat-box {
@@ -166,12 +145,12 @@ a:hover { text-decoration: underline; }
 
 /* MODO ALTO CONTRASTE */
 body.contraste {
-  background: #2e2e2e;
+  background: #555; /* branco vira cinza claro */
   color: #fff;
 }
 
 body.contraste nav#menu {
-  background: #555;
+  background: #2e2e2e; /* verde desbotado vira cinza carvão */
 }
 
 body.contraste input,
@@ -184,13 +163,5 @@ body.contraste button {
 }
 
 /* FEEDBACK */
-#feedback-form textarea {
-  min-height: 80px;
-}
-
-#feedback-form .btn-pequeno {
-  font-size: 14px;
-  padding: 6px 12px;
-  width: fit-content;
-  align-self: flex-end;
-}
+#feedback-form textarea { min-height: 80px; }
+#feedback-form .btn-pequeno { font-size: 14px; padding: 6px 12px; width: fit-content; align-self: flex-end; }
