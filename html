@@ -36,7 +36,7 @@
   <!-- MENU LATERAL -->
   <nav id="menu" class="hidden">
     <h3>
-      Menu <button id="toggle-dark" class="dark-btn">🌙</button>
+      Menu <button id="toggle-dark" class="dark-btn">🌓</button>
     </h3>
     <div class="menu-top">
       <button data-aba="painel">Painel de Controle</button>
@@ -51,10 +51,10 @@
   <main id="conteudo">
     <section id="painel" class="aba hidden">
       <h2>Painel de Controle</h2>
-      <div id="func-login">
+      <div id="func-login" class="centralizado">
         <h3>Login Funcionários</h3>
         <form id="func-form">
-          <input type="text" id="func-nome" placeholder="Nome do funcionário" required>
+          <input type="text" id="func-nome" placeholder="Usuário" required>
           <input type="password" id="func-senha" placeholder="Senha" required>
           <button type="submit">Entrar</button>
         </form>
@@ -73,18 +73,13 @@
       <h2>Serviços</h2>
       <form id="servicos-form">
         <label>Selecione o serviço:</label>
-        <select id="servico-select" required>
+        <select id="servico-select" required onchange="mostrarDetalhesServico()">
           <option value="">-- Escolha um serviço --</option>
           <option value="refeicao">Pedido de refeição</option>
           <option value="limpeza">Agendamento de limpeza</option>
           <option value="toalhas">Solicitar toalhas</option>
         </select>
-
-        <label>Selecione dia e hora:</label>
-        <input type="date" id="servico-dia" required>
-        <input type="time" id="servico-hora" required>
-
-        <button type="submit">Agendar Serviço</button>
+        <div id="detalhes-servico"></div>
       </form>
     </section>
 
