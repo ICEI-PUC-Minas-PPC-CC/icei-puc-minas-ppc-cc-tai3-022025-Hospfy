@@ -78,10 +78,26 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 - **Plano Enterprise:** R$ 1.200,00/ano 
 
 ### 5️⃣ SWOT (Análise de Ambientes)
-- Forças:  
-- Fraquezas:  
-- Oportunidades:  
-- Ameaças:  
+
+**Forças:**
+* Custos operacionais baixos e estrutura enxuta.
+* Planos acessíveis e gestão orientada por métricas.
+* Estrutura legal e tributária simplificada.
+
+**Fraquezas:**
+* Baixo capital de giro e pouca capacidade de investimento.
+* Marca nova no mercado e sem credibilidade inicial.
+* Precificação do plano Enterprise desalinhada ao público-alvo.
+
+**Oportunidades:**
+* Crescimento da digitalização no setor hoteleiro.
+* Nicho de pequenos e médios hotéis com poucas soluções adequadas.
+* Demanda por plataformas simples com suporte humanizado.
+
+**Ameaças:**
+* Concorrência consolidada com mais recursos financeiros.
+* Alta resistência e custo para o cliente trocar de sistema.
+* Dependência de fatores externos como o desempenho do turismo e das OTAs (Agências de Viagem Online).
 
 ### 6️⃣ Planejamento Estratégico (BSC)
 - Objetivos estratégicos:  
