@@ -9,7 +9,7 @@ A sustentabilidade do Hospfy é garantida por uma estrutura de capital que cobre
 ### Investimento Inicial (Total)
 O capital necessário para a fase de lançamento e aquisição dos bens essenciais.
 
-* *Total:* *R$ 22.100,00*
+* *Total:* *R$ 112.100,00*
 * *Composição:*
     * *Investimento Fixo (Equipamentos):* R$ 18.000,00 (Compra de notebooks, smartphones, etc.)
     * *Investimento Pré-operacional:* R$ 4.100,00 (Custos de legalização e marketing de inauguração)
@@ -17,10 +17,10 @@ O capital necessário para a fase de lançamento e aquisição dos bens essencia
 ### Capital de Giro e Reserva
 O capital de giro é o valor necessário para manter a empresa operando mensalmente, sem depender integralmente da receita imediata.
 
-* *Custo Fixo Mensal (Capital de Giro):* *R$ 15.400,00*
+* *Custo Fixo Mensal (Capital de Giro):* *R$ 15.000,00*
     * Finalidade: Valor mínimo para cobrir salários da equipe mínima, hospedagem de servidores (base) e despesas administrativas.
-* *Reserva Financeira:* *R$ 10.000,00*
-    * Objetivo: Colchão de segurança para imprevistos e garantia de estabilidade do fluxo de caixa.
+* *Reserva Financeira:* *R$ 90.000,00*
+    * Objetivo: Garantir a cobertura de 6 meses de custos fixos (R$ 15.000,00/mês), independentemente da receita.
 
 ---
 
@@ -51,7 +51,7 @@ A escolha da estrutura garante a simplificação fiscal e a segurança jurídica
 * *Regime Tributário:* *Simples Nacional*
     * Justificativa: Regime unificado (guia única - DAS) com alíquotas reduzidas, ideal para empresas de serviço com faturamento inicial.
 * *Tributação Incidente (Custo Variável):*
-    * *Alíquota Estimada:* *~10% sobre o faturamento*
+    * *Alíquota Estimada:* *~35,5% sobre o faturamento*
     * Impacto: Esse percentual cobre todos os impostos (IRPJ, CSLL, PIS, COFINS, ISS, INSS Patronal) e é incorporado ao custo variável, crescendo junto com a receita.
 
 ## 4 Análise de Ambiente e Pesquisa de Mercado
@@ -74,7 +74,7 @@ A pesquisa identificou os principais concorrentes diretos e indiretos no setor d
 
 | | **Fatores Positivos** | **Fatores Negativos** |
 | :--- | :--- | :--- |
-| **Ambiente Interno** | **Forças** <br> 1. Custos operacionais baixos e estrutura enxuta. <br> 2. Planos acessíveis e transparentes. <br> 3. Estrutura legal simples (LTDA + Simples Nacional). <br> 4. Gestão orientada a métricas (CAC, ARPU, LTV). | **Fraquezas** <br> 1. Baixo capital de giro (reserva cobre < 2 meses). <br> 2. Marca nova e sem credibilidade inicial. <br> 3. Pouca capacidade de investimento em marketing e equipe. <br> 4. Plano Enterprise com precificação desalinhada ao público. |
+| **Ambiente Interno** | **Forças** <br> 1. Custos operacionais baixos e estrutura enxuta. <br> 2. Planos acessíveis e transparentes. <br> 3. Estrutura legal simples (LTDA + Simples Nacional). <br> 4. Gestão orientada a métricas (CAC, ARPU, LTV). <br> 5. Plano de capitalização robusto com 6 meses de runway garantidos." | **Fraquezas**  <br> 1. Marca nova e sem credibilidade inicial. <br> 2. Pouca capacidade de investimento em marketing e equipe. <br> 3. Plano Enterprise com precificação desalinhada ao público. |
 | **Ambiente Externo** | **Oportunidades** <br> 1. Aceleração da digitalização hoteleira. <br> 2. Nicho de pequenos e médios hotéis mal atendidos. <br> 3. Diferencial em suporte humanizado e rápido. <br> 4. Demanda por plataformas integradas e simples. | **Ameaças** <br> 1. Concorrentes consolidados com mais recursos. <br> 2. Alto custo e resistência na troca de sistema. <br> 3. Pressão por preços baixos de concorrentes SaaS. <br> 4. Dependência de tendências externas (ex: turismo e OTAs). |
 
 
