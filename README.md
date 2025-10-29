@@ -105,8 +105,13 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 - Ações planejadas:  
 
 ### 7️⃣ Fluxo de Caixa
-- Planilha ou print do fluxo projetado:  
-- Principais considerações:  
+![Fluxo de Caixa Mensal](Fluxo_caixa_img.png)
+
+* Ponto de Equilíbrio (Break-Even): Atingido. A simulação prova que a empresa, com um crescimento de clientes projetado, cobre todos os seus custos fixos e variáveis (atingindo R$ 23.100,00 em receita vs. R$ 23.200,50 em custos) e fica proximo ao ponto de equilíbrio operacional no Mês 4 (Abril).
+
+* Validação do Capital (Runway): O aporte inicial de R$ 90.000,00 (Reserva Financeira) foi validado.
+
+* Saúde Final do Caixa: O déficit operacional total (cash burn) acumulado para atingir o equilíbrio foi de R$ 26.889,00. Ao subtrair esse valor do aporte inicial, a empresa conclui o período com um saldo de caixa final de R$ 63.111,00, garantindo um "fôlego" robusto para a próxima fase de crescimento.  
 
 ### 8️⃣ Valuation
 - Método utilizado:  
