@@ -9,22 +9,23 @@
 | **Hospedagem / Servidor (Escala)** | Custo | Variável | Indireto | 7% da receita | Aumenta conforme o tráfego de usuários e o uso do banco de dados. |
 | **Licenças e APIs** | Custo | Fixo | Indireto | 800/mês | Serviços de terceiros essenciais para a funcionalidade do app (ex: Google Maps, SendGrid). |
 | **Taxas de Pagamento Online** | Custo | Variável | Direto | 3,5% das vendas | Taxa média cobrada por intermediadores financeiros (Stripe, Pagar.me) por transação. |
-| **Recursos Humanos (Salário Bruto)** | Despesa | Fixo | Direto | 24.840/mês | Remuneração da equipe central |
+| **Recursos Humanos (Salário Bruto)** | Despesa | Fixo | Direto | 6.540/mês | Remuneração da equipe central (2x Desenvolvedores e 1x marketing) |
 
 ### 🔹 Despesas Gerais e Administrativas
 
 | Item | Tipo | Fixo/Variável | Direto/Indireto | Valor Estimado (R$) | Premissas Utilizadas |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Encargos Sociais** | Despesa | Fixo | Indireto | 3.513/mês | Estimativa de 14,14% sobre os salários, cobrindo FGTS, provisão de férias e 13º. |
+| **Benefícios (VA/VR)**| Despesa | Fixo | Indireto | 3.600/mês|Cobrir possíveis benefícios da alimentação|
+| **Encargos Sociais** | Despesa | Fixo | Indireto | 2.318,62/mês | Estimativa de 35,44% sobre os salários, cobrindo FGTS, provisão de férias e 13º. |
 | **Marketing Digital** | Despesa | Variável | Indireto | 15% da receita | Investimento estratégico para aquisição de clientes, reinvestindo parte da receita. |
 | **Contabilidade** | Despesa | Fixo | Indireto | 500/mês | Honorários mensais do serviço contábil. |
 | **Impostos sobre a Receita** | Despesa | Variável | Indireto | ~10% da receita | Alíquota estimada do Simples Nacional, que varia conforme o faturamento anual. |
 | **Depreciação de Notebooks** | Despesa | Fixo | Indireto | 200/mês | Baseado em 3 notebooks de R$ 4.000 com vida útil fiscal de 5 anos. |
-| **Depreciação de Smartphones** | Despesa | Fixo | Indireto | 50/mês | Baseado em 2 smartphones de R$ 1.500 com vida útil fiscal de 5 anos. |
+| **Depreciação de Smartphones** | Despesa | Fixo | Indireto | 75/mês | Baseado em 3 smartphones de R$ 1.500 com vida útil fiscal de 5 anos. |
 
 ### 💼 Detalhamento dos Encargos Sociais sobre Salários
 
-O percentual de **14,14%** aplicado sobre a folha de pagamento foi calculado com base nos principais encargos trabalhistas e previdenciários obrigatórios, considerando o regime CLT e enquadramento no Simples Nacional.
+O percentual de **35,44%** aplicado sobre a folha de pagamento foi calculado com base nos principais encargos trabalhistas e previdenciários obrigatórios, considerando o regime CLT e enquadramento no Simples Nacional.
 
 #### 🔹 Composição dos Encargos
 
@@ -34,10 +35,10 @@ O percentual de **14,14%** aplicado sobre a folha de pagamento foi calculado com
 | **FGTS** | 8,00% | Depósito mensal obrigatório |
 | **Provisão de 13º salário** | 1/12 = 8,33% | Rateio mensal |
 | **Férias + 1/3 constitucional** | 1/12 × 1,33 = 11,11% | Rateio mensal |
-| **Total médio ponderado aplicado** | ≈ 14,14% | Percentual ajustado considerando média proporcional e simplificações |
+| **Total médio ponderado aplicado** | ≈ 35,44% | Percentual ajustado considerando média proporcional e simplificações |
 
 #### 🔹 Valor Absoluto Estimado
-R$ 24.840 × 14,14% = **R$ 3.513,38 / mês**
+R$ 6.540,00 (Salário Bruto Total) × 35,44% = R$ 2.318,62 / mês
 
 #### 🔹 Premissa Financeira
 Os encargos foram classificados como despesas fixas e indiretas, pois acompanham a manutenção da equipe técnica e administrativa, independentemente do volume de vendas.
