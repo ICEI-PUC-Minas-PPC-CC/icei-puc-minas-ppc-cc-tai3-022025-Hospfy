@@ -55,7 +55,7 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 - **Licenças e APIs do sistema:** R$ 800/mês
 - **Contabilidade e tributos:** R$ 200/mês
 - **Marketing digital recorrente:** R$ 500/mês
-- **Equipe mínima (desenvolvedor + suporte):** R$ 4.000/mês
+- **Equipe mínima (desenvolvedor + suporte):** R$ 6.540/mês
 
 ### Custos Variáveis
 - **Taxas de pagamento online (cartão, Pix):** 2% a 5% sobre a receita
