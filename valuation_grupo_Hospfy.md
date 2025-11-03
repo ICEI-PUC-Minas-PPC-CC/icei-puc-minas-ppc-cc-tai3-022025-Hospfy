@@ -1,51 +1,64 @@
+## Relatório de Valuation: Projeto Hospfy
 
+### 1. Pesquisa Conceitual sobre Valuation 
 
-## 1. Metodologia e Premissas da Análise
+Para esta etapa, nosso grupo pesquisou os conceitos de *Valuation*, que é o processo de estimar o valor econômico do nosso negócio. O objetivo é determinar quanto o Hospfy vale, com base em sua capacidade de gerar resultados.
 
-### 1.1. Método Escolhido: Fluxo de Caixa Descontado (FCD)
+Analisamos as principais metodologias:
 
-O método FCD é o mais adequado para o Hospfy. A projeção de fluxo de caixa fornecida (imagem) nos permite usar os próprios dados de crescimento da empresa, em vez de hipóteses externas, tornando a análise muito mais precisa e alinhada ao plano.
+1.  **Múltiplos de Mercado:** Compara a empresa com concorrentes.
+    * *Por que descartamos:* Inadequado para o Hospfy. Sendo uma startup em estágio inicial, não temos lucro para comparar e nem concorrentes diretos com dados públicos.
 
-### 1.2. Aplicação do Valuation no Hospfy
+2.  **Valor Patrimonial (ou Contábil):** Soma os ativos e subtrai os passivos.
+    * *Por que descartamos:* Também inadequado. O valor do Hospfy não está em ativos físicos, mas em nosso software e, principalmente, na nossa **capacidade de gerar receita futura**.
 
-Para aplicar o FCD, utilizamos as seguintes premissas, **agora baseadas nos dados da imagem**:
+3.  **Fluxo de Caixa Descontado (FCD):** Projeta nossa capacidade futura de gerar caixa e traz esse valor para o presente, considerando os riscos.
+    * ***Nosso Método Escolhido:*** Definimos o FCD como o método mais adequado, pois ele foca exatamente no potencial futuro do nosso negócio, que é a tese central do Hospfy.
+
+---
+
+### 2. Nossa Metodologia e Aplicação no Hospfy
+
+#### 2.1. Aplicação do Valuation no Hospfy
+
+Para aplicar o FCD, estabelecemos as seguintes premissas, que foram baseadas e validadas pelos dados da nossa projeção inicial.
 
 **1. Premissa de Receita (Baseada na Imagem):**
-A projeção de Jan-Abr mostra um crescimento de receita acelerado:
+Nossa projeção de Jan-Abr mostra a curva de tração inicial:
 * Janeiro: R$ 4.200
 * Fevereiro: R$ 9.100
 * Março: R$ 15.400
 * Abril: R$ 23.100
 
-A imagem também valida que o **ponto de equilíbrio (break-even)** operacional (onde a receita cobre os custos fixos + variáveis) ocorre muito próximo do Mês 4 (Saldo de -R$ 100,50).
+Esses dados validam que nosso **ponto de equilíbrio (break-even)** operacional é atingido muito próximo do Mês 4 (Saldo de -R$ 100,50).
 
-Com base nisso, extrapolamos a receita para os 5 anos, assumindo que o break-even é atingido no Mês 5 e o crescimento continua em ritmo forte, porém desacelerando percentualmente à medida que a base aumenta:
+Com base nisso, extrapolamos nossa receita para 5 anos. Assumimos que o break-even se consolida no Mês 5 e nosso crescimento continua forte, porém desacelerando percentualmente à medida que a base de clientes aumenta:
 
-* **Receita Ano 1:** R$ 337.694 (Total dos 12 meses, extrapolando a curva de crescimento da imagem)
+* **Receita Ano 1:** R$ 337.694 (Projeção dos 12 meses)
 * **Receita Ano 2:** R$ 844.235 (Crescimento de 150%)
 * **Receita Ano 3:** R$ 1.519.623 (Crescimento de 80%)
 * **Receita Ano 4:** R$ 2.279.434 (Crescimento de 50%)
 * **Receita Ano 5:** R$ 3.191.208 (Crescimento de 40%)
 
 **2. Premissa de Estrutura de Custos:**
-Os custos estão alinhados entre a imagem e o plano detalhado. Usaremos os percentuais mais precisos do plano:
+Utilizamos os percentuais do nosso plano de negócios detalhado:
 
 * **Custos Variáveis (CV): 35,5% sobre a Receita Bruta**
     * *Composição:* 10% (Impostos) + 15% (Marketing) + 7% (Servidor Escala) + 3,5% (Taxas Pagamento).
 * **Custos Fixos (CF): R$ 180.000,00/ano**
     * *Composição:* R$ 15.000,00/mês (Salários, Encargos, Benefícios, Servidor Base, Licenças, Contabilidade, Depreciação).
-    * *Correção:* Aplicamos um reajuste de **5% ao ano** sobre os custos fixos (inflação) para maior realismo na projeção.
+    * *Correção:* Aplicamos um reajuste de **5% ao ano** sobre os custos fixos (inflação) para maior realismo.
 
 **3. Premissa de Desconto e Perpetuidade:**
 
-* **Taxa de Desconto (TMA): 25% ao ano.** Reflete o alto risco de uma startup de tecnologia no Brasil (competição, execução, mercado).
-* **Crescimento na Perpetuidade (g): 6% ao ano.** Crescimento modesto e sustentável do negócio após o Ano 5.
+* **Taxa de Desconto (TMA): 25% ao ano.** Definimos esta taxa para refletir o alto risco de uma startup de tecnologia no Brasil (competição, execução e mercado).
+* **Crescimento na Perpetuidade (g): 6% ao ano.** É o crescimento modesto e sustentável que projetamos para o Hospfy após o Ano 5.
 
 ---
 
-## 2. Projeção de Fluxo de Caixa (Relatório Sintético Revisado)
+### 3. Nossa Projeção de Fluxo de Caixa (Relatório Sintético)
 
-Esta tabela simula o Fluxo de Caixa Livre (FCL) do Hospfy com base nas premissas revisadas (crescimento da imagem).
+Com base nas premissas que definimos, nossa projeção de Fluxo de Caixa Livre (FCL) para o Hospfy é a seguinte:
 
 | Métrica | Ano 0 | Ano 1 | Ano 2 | Ano 3 | Ano 4 | Ano 5 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -62,9 +75,9 @@ Esta tabela simula o Fluxo de Caixa Livre (FCL) do Hospfy com base nas premissas
 
 ---
 
-## 3. Resultado Final: O Valor do Hospfy (Revisado)
+### 4. Resultado Final: O Valor do Hospfy
 
-O valor final é a soma dos Valores Presentes (VP) dos fluxos de caixa projetados (Anos 1-5) mais o Valor Presente da Perpetuidade (o valor da empresa do Ano 6 em diante).
+O valor final do nosso projeto é a soma dos Valores Presentes (VP) dos fluxos de caixa (Anos 1-5) mais o Valor Presente da Perpetuidade.
 
 #### 🔹 A. Cálculo da Perpetuidade
 Valor da perpetuidade ao final do Ano 5 (FCL Ano 6 / (TMA - g)):
@@ -80,15 +93,22 @@ Soma do VP do FCL (Anos 1-5) + VP da Perpetuidade:
 **Valuation (Valor da Empresa) = R$ 5.108.869**
 
 #### 🔹 D. VPL (Valor Presente Líquido)
-O VPL subtrai o investimento inicial do valor total encontrado, indicando a viabilidade do projeto.
+O VPL subtrai nosso investimento inicial do valor total, indicando a viabilidade do projeto.
 `VPL = R$ 5.108.869 (Valuation) - R$ 112.100 (Invest. Inicial)`
 **VPL = R$ 4.996.769**
 
-### Conclusão da Análise
+### Conclusão da Nossa Análise
 
-Utilizando a projeção de receita acelerada fornecida na imagem (que indica um **break-even operacional já no Mês 5**), o projeto Hospfy demonstra um **Valuation estimado de R$ 5,1 milhões** e um VPL (Valor Presente Líquido) positivo de **R$ 4,99 milhões**.
+Nossa análise, utilizando a projeção de receita acelerada (que indica um **break-even operacional já no Mês 5**), demonstra que o projeto Hospfy tem um **Valuation estimado de R$ 5,1 milhões** e um VPL (Valor Presente Líquido) positivo de **R$ 4,99 milhões**.
 
-**Observações Importantes:**
+**Observações Importantes do Grupo:**
 
-* **Validação da Reserva:** A projeção da imagem mostra um saldo acumulado negativo de R$ -26.889 em Abril. Isso valida a importância da **Reserva Financeira de R$ 90.000,00**, que cobre confortavelmente este período inicial de queima de caixa (runway).
-* **Foco no Raciocínio:** Este valor é uma estimativa direta da projeção otimista de crescimento da equipe. A execução bem-sucedida desse crescimento é a premissa-chave para que este valor se realize.
+* **Validação da Reserva:** A projeção inicial mostrou um saldo negativo de R$ -26.889 em Abril. Isso valida a importância da **Reserva Financeira de R$ 90.000,00** que planejamos, pois ela cobre confortavelmente este período de queima de caixa (runway).
+* **Foco no Raciocínio:** Sabemos que este valor é uma estimativa direta da nossa projeção otimista de crescimento. A execução bem-sucedida desse crescimento é a premissa-chave para que este valor se realize, e esse foi o foco do nosso raciocínio financeiro.
+
+---
+
+### 5. Referências Consultadas
+
+* ASSAF NETO, A. **Finanças Corporativas e Valor.** 7. ed. São Paulo: Atlas, 2014.
+* DAMODARAN, A. **Investment Valuation: Tools and Techniques for Determining the Value of Any Asset.** 3. ed. New Jersey: Wiley, 2012.
