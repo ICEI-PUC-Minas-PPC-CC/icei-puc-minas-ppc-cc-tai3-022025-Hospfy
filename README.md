@@ -114,8 +114,8 @@ Nosso aplicativo revoluciona a forma de se hospedar em hotéis: em vez de ligar 
 * Saúde Final do Caixa: O déficit operacional total (cash burn) acumulado para atingir o equilíbrio foi de R$ 26.889,00. Ao subtrair esse valor do aporte inicial, a empresa conclui o período com um saldo de caixa final de R$ 63.111,00, garantindo um "fôlego" robusto para a próxima fase de crescimento.  
 
 ### 8️⃣ Valuation
-- Método utilizado:  
-- Valor estimado:  
+- O FCD foi o método escolhido por ser o único que avalia o potencial de crescimento futuro (projeção de receita), que é o principal ativo do Hospfy, em vez de se basear em ativos físicos ou comparações de mercado que não se aplicam a uma startup em estágio inicial.  
+- Valor estimado: R$ 5.108.869 (R$ 5,1 milhões)
 
 ### 9️⃣ Segurança Cibernética
 - Riscos identificados:  
