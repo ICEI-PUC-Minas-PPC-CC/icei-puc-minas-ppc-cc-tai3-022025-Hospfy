@@ -107,8 +107,3 @@ Nossa análise, utilizando a projeção de receita acelerada (que indica um **br
 * **Foco no Raciocínio:** Sabemos que este valor é uma estimativa direta da nossa projeção otimista de crescimento. A execução bem-sucedida desse crescimento é a premissa-chave para que este valor se realize, e esse foi o foco do nosso raciocínio financeiro.
 
 ---
-
-### 5. Referências Consultadas
-
-* ASSAF NETO, A. **Finanças Corporativas e Valor.** 7. ed. São Paulo: Atlas, 2014.
-* DAMODARAN, A. **Investment Valuation: Tools and Techniques for Determining the Value of Any Asset.** 3. ed. New Jersey: Wiley, 2012.
